@@ -21,4 +21,23 @@ const images = [
   
   // Llama a la función para iniciar el ciclo de cambio de imágenes
   setInterval(changeImage, 3000); // Cambia la imagen cada 3 segundos (ajusta el tiempo según prefieras)
+
+ function copiarCorreo(){
+
+    var correo = document.getElementById("correo").innerText;
+    var elementoTemporal = document.createElement("textarea");
+    elementoTemporal.value = correo;
+    document.body.appendChild(elementoTemporal);
+
+    // Seleccionar el texto y copiarlo
+    elementoTemporal.select();
+    document.execCommand('copy');
+
+    // Eliminar el elemento temporal
+    document.body.removeChild(elementoTemporal);
+
+    // Opcional: Mostrar un mensaje o alerta
+    alert("Correo copiado: " + correo);
+
+  }
   
