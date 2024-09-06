@@ -52,7 +52,9 @@
           <h1 class="Nombre mt-3 text-center">
             Hola, soy Cristian <i class="bi bi-code-slash"></i>
           </h1>
-          <label class="Trabajo text-center pt-3">Desarrollador en desarrollo</label>
+          <label class="Trabajo text-center pt-3"
+            >Desarrollador en desarrollo</label
+          >
         </div>
       </div>
     </header>
@@ -64,7 +66,7 @@
       <article class="px-5 pb-5">
         <!-- Información del desarrollador -->
         <div>
-          <p class="ParrafoQuienSoy text-center pt-2" >
+          <p class="ParrafoQuienSoy text-center pt-2">
             Apasionado amante de la tecnología y un entusiasta de la
             investigación constante. Mi curiosidad por el mundo de la
             programación y el desarrollo de software me ha llevado a embarcarme
@@ -367,7 +369,6 @@
                           <h3 class="skills__name">Git</h3>
                           <span class="skills__level">Avanzado</span>
                         </div> -->
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -1038,17 +1039,85 @@
           <div
             class="proySisMonitoreo d-flex flex-column overflow-hidden"
             style="width: 400px; height: 200px"
+            data-bs-toggle="modal"
+            data-bs-target="#modalMonitoreo"
           ></div>
+          <div
+            class="modal fade"
+            id="modalMonitoreo"
+            tabindex="-1"
+            aria-labelledby="modalMonitoreoLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalMonitoreoLabel">
+                    Sistema de Monitoreo
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div class="modal-text">
+                    Este proyecto consistió en extraer y mostrar información de
+                    un sistema de paletizado automático utilizando PHP y MySQL.
+                    El objetivo principal fue mejorar la accesibilidad y
+                    disponibilidad de los datos del proceso, ya que la
+                    información estaba centralizada en un grupo reducido de
+                    personas, lo que generaba problemas críticos, como la
+                    pérdida de información, datos incompletos, y errores en la
+                    interpretación. Además, se presentaban fallas frecuentes en
+                    las unidades de almacenamiento, que afectaban tanto la
+                    integridad de la información en tiempo real. Estos
+                    inconvenientes impactaban directamente en la eficiencia del
+                    sistema, ocasionando problemas operativos. La implementación
+                    del proyecto permitió solucionar estos inconvenientes al
+                    automatizar el acceso a los datos y mejorar la gestión de la
+                    información en todo el sistema, garantizando su
+                    disponibilidad y reduciendo la posibilidad de errores
+                    humanos. <br />
+                    <img
+                      class="img-supervisorio"
+                      src="img/proyectos/SupervisorioPantalla..jpg"
+                      alt="Foto de proyecto"
+                      width="600px"
+                      height="350px"
+                    />
+                    <br />
+                    <b>Codigo disponible bajo solicitud.</b>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                  <!-- <a href="enlace-al-proyecto" class="btn btn-primary"
+                    >Ver Proyecto</a
+                  > -->
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="text-light position-absolute mt-5">
             <h4 style="font-size: 1rem">Sitio web</h4>
             <h3 class="Titulo">Sistema de monitoreo</h3>
-            <button
+            <!-- <button
               type="button"
               name="button"
               class="btn btn-primary rounded-pill"
             >
+              <a href=""></a>
               <i class="bi bi-link"></i>
-            </button>
+            </button> -->
           </div>
         </div>
 
@@ -1075,7 +1144,76 @@
           <div
             class="proyFormula1 d-flex flex-column overflow-hidden"
             style="width: 400px; height: 200px"
+            data-bs-toggle="modal"
+            data-bs-target="#modalFormula1"
           ></div>
+          <div
+            class="modal fade"
+            id="modalFormula1"
+            tabindex="-1"
+            aria-labelledby="modalFormula1Label"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalFormula1Label">
+                    Formula 1 - Tienda
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div class="modal-text">
+                    Este proyecto fue parte de mi materia de Programación III y
+                    consistió en el desarrollo de una aplicación web. El
+                    front-end se implementó utilizando solo CSS, mientras que el
+                    back-end se desarrolló con tecnologías como Servlets, JSP,
+                    JSTL, JavaBeans, MySQL y Apache TomEE Plume como servidor.
+                    También se utilizó JavaScript para agregar interactividad en
+                    el front-end. <br />
+
+                    El proyecto se trabajó en equipo bajo la metodología ágil
+                    Scrum, y se utilizó Git como controlador de versiones para
+                    la colaboración. Mi rol en el proyecto fue desarrollar la
+                    tienda, tanto el front-end como la lógica del negocio. Fue
+                    un reto interesante ya que la mayor parte del desarrollo se
+                    realizó en un entorno Linux utilizando la consola y el
+                    servidor Apache TomEE Plume corriendo en Linux por consola.
+                    Por tiempo el proyecto no alcanzo a ser desplegado, en el
+                    enlace al proyecto redirige a una página estática desplegada
+                    en GitHub Pages, pero el codigo lo pueden encontrar en el
+                    repositorio.
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                  <a
+                    href="https://github.com/jorgepajarit/Proyecto-Articulador"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Ver codigo</a
+                  >
+                  <a
+                    href="https://jorgepajarit.github.io/formula1.1/products.html"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Ver Proyecto</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="text-light position-absolute mt-5">
             <h4 style="font-size: 1rem">Sitio web</h4>
             <h3 class="Titulo">Formula 1 - Tienda</h3>
@@ -1097,9 +1235,95 @@
       <div class="mx-5 py-5 d-flex justify-content-center">
         <div class="d-flex justify-content-center" style="margin-inline: 2%">
           <div
-            class="proyRemeras d-flex flex-column overflow-hidden"
+            class="proyModulosst d-flex flex-column overflow-hidden"
             style="width: 400px; height: 200px"
+            data-bs-toggle="modal"
+            data-bs-target="#modalModulo"
           ></div>
+          <div
+            class="modal fade"
+            id="modalModulo"
+            tabindex="-1"
+            aria-labelledby="modalModuloLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalModuloLabel">
+                    Modulo de gestión de flujos - SST
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div class="modal-text">
+                    Este proyecto consistió en un desafío empresarial para
+                    desarrollar un módulo de gestión de flujos de trabajo en una
+                    aplicación web orientada a la gestión de permisos de
+                    trabajos en alturas. La aplicación se desarrolló utilizando
+                    una variedad de tecnologías, cada una con un rol específico
+                    en el proyecto: <br />
+
+                    <b>- Flask: </b> Microframework utilizado para el back-end
+                    de la aplicación. Proporcionó las herramientas necesarias
+                    para crear rutas, manejar solicitudes y gestionar la lógica
+                    de manera eficiente <br />
+
+                    <b>- Bootstrap: </b> Utilizado para el front-end facilitó la
+                    creación de la interfaz, haciéndola atractiva y responsiva
+                    <br />
+
+                    <b>- CSS nativo: </b> Se empleó para estilizar la aplicación
+                    y proporcionar una apariencia personalizada que
+                    complementara el diseño de Bootstrap. <br />
+
+                    <b>- MySQLServer: </b> Servidor de base de datos utilizado
+                    para almacenar y gestionar la información de la aplicación,
+                    como datos de usuarios, flujos de trabajo y registros de
+                    actividades. <br />
+
+                    Algunas otras bibliotecas complementarias como Flask-Login
+                    para asegurar las autenticaciones de usuarios,
+                    importlib-metada, itsdangerous para asegurar versiones y
+                    tokens de ingreso, jinja2 para renderizar vistas, MarkupSafe
+                    para proporcionar un escape seguro para los datos HTML,
+                    evitando vulnerabilidades como la inyección de código en las
+                    plantillas Jinja2, Werkzeug se utilizó junto con Flask para
+                    gestionar solicitudes y respuestas HTTP, y manejar aspectos
+                    del servidor web y zipp para manejar archivos comprimidos en
+                    el proyecto. <br />
+
+                    Este proyecto representó un desafío significativo en el
+                    desarrollo de mi carrera, ya que involucró la aplicación de
+                    todas las habilidades adquiridas durante el primer ciclo de
+                    estudios. El proyecto fue desplegado de manera local, pero
+                    puedes encontrar más información y una simulación detallada
+                    en el repositorio.
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                  <a
+                    href="https://github.com/cristianriveraxd/ModuloSST"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Ver repositorio</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="text-light position-absolute mt-5">
             <h4 style="font-size: 1rem">Sitio web</h4>
             <h3 class="Titulo">Modulo gestión de flujos</h3>
@@ -1108,16 +1332,73 @@
               name="button"
               class="btn btn-primary rounded-pill"
             >
-              <i class="bi bi-link"></i>
+              <a
+                href="https://github.com/cristianriveraxd/ModuloSST"
+                target="_blank"
+              >
+                <i class="bi bi-link"></i
+              ></a>
             </button>
           </div>
         </div>
 
         <div class="d-flex justify-content-center" style="margin-inline: 2%">
           <div
-            class="proyAgricol d-flex flex-column overflow-hidden"
+            class="varProye d-flex flex-column overflow-hidden"
             style="width: 400px; height: 200px"
+            data-bs-toggle="modal"
+            data-bs-target="#wmodalProyectos"
           ></div>
+          <div
+            class="modal fade"
+            id="modalProyectos"
+            tabindex="-1"
+            aria-labelledby="modalProyectosLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalProyectosLabel">
+                    Proyectos en desarrolló propios
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div class="modal-text">
+                    Como creyente de que la tecnología, la información y el
+                    análisis son herramientas clave para corregir y mejorar
+                    nuestra sociedad y procesos día a día. Actualmente, estoy
+                    trabajando en proyectos propios que incluyen traducción de
+                    gestos, visión por computadora, detección de productos
+                    truncados en líneas de producción utilizando OpenCV (cv2),
+                    así como varios desarrollos web. Puedes encontrar más
+                    detalles en mi perfil de GitHub.
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                  <a
+                    href="https://github.com/cristianriveraxd"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Repositorios</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="text-light position-absolute mt-5">
             <h4 style="font-size: 1rem">....</h4>
             <h3 class="Titulo">Proyectos en desarrollo</h3>
@@ -1126,7 +1407,7 @@
               name="button"
               class="btn btn-primary rounded-pill"
             >
-              <a href="https://cristianriveraxd.github.io/Agri-Col-Store/"
+              <a href="https://github.com/cristianriveraxd" target="_blank"
                 ><i class="bi bi-link"></i
               ></a>
             </button>
@@ -1146,8 +1427,13 @@
             <div class="d-flex grid mb-3">
               <i class="bi bi-envelope"></i>
               <div class="d-block">
-                <h3 class="Titulo">Correo </h3><a href="#contacto" onclick="copiarCorreo()"><i class="bi bi-text-paragraph"></i></a>
-                <span class="ContactSubTitulos" id="correo">ceriveraa005@gmail.com</span>
+                <h3 class="Titulo">Correo</h3>
+                <a href="#contacto" onclick="copiarCorreo()"
+                  ><i class="bi bi-text-paragraph"></i
+                ></a>
+                <span class="ContactSubTitulos" id="correo"
+                  >ceriveraa005@gmail.com</span
+                >
               </div>
             </div>
             <div class="d-flex grid">
