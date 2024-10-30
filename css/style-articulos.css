@@ -330,11 +330,11 @@ ul {
 /* Sección Sobre Mí */
 
 #sobreMi {
-  padding-top: 10rem;
+  padding-top: 10%;
 }
 
 #hobbies {
-  padding-top: 10rem;
+  padding-top: 10%;
 }
 
 .sobreMi-data {
@@ -381,19 +381,19 @@ ul {
 /* Sección Habilidades */
 
 #habilidades {
-  padding-top: 10rem;
+  padding-top: 15%;
 }
 
 /* Sección Proyectos */
 
 #proyectos {
-  padding-top: 10rem;
+  padding-top: 10%;
 }
 
 /* Sección Contacto */
 
 #contacto {
-  padding-top: 10rem;
+  padding-top: 10%;
 }
 
 
